@@ -1,12 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ishare</title>
+    <link rel="stylesheet" href="/assets/css/home.css" />
+    <link rel="stylesheet" href="/assets/css/grid.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="App">
+      <header id="Header">
+        <div class="logo">
+          <a href="#" class="logo-link">
+            <img src="/assets/media/Main_LOGO.png" alt="Logo" class="logo-img" />
+          </a>
+        </div>
+        <div class="search">
+          <input type="text" class="search-input" placeholder="What do you care?"/>
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        </div>
+        <div class="user">
+          <div class="notification">
+            <i class="fa-regular fa-bell notification-icon"></i>
+          </div>
+          <a href="users.html">
+            <div><div class="user-input">Tony</div></div>
+          </a>
+          
+        </div>
+      </header>
+      <div class="topic">
+        <i class="fa-solid fa-fire trending-icon" style="color:red"></i>
+        <p class="topic-main" style = "color: red;">Trending:</p>
+        <span class="topic-theme">
+          # GDSC Hackathon</span>
+        <span class="topic-theme"># GDSC Hackathon final</span>
+      </div>
+      <div class="body">
+        <div class="row sm-gutter app__content">
+          <div class="category">
+            <div class="new">
+              <button class="button plus">+</button>
+            </div>
+            <div class="home">
+              <button class="button active">
+                <i class="fa-solid fa-house"></i>
+                Home
+              </button>
+            </div>
+            <div class="collection">
+              <button class="button collection-btn">Must Read</button>
+            </div>
+            <div class="workShop">
+              <button class="button workshop-btn">Work Shop</button>
+            </div>
+            <div class="community">
+              <button class="button community-btn">Team Up</button>
+            </div>
+            <div class="question">
+              <button class="button question-btn">Q&A</button>
+            </div>
+          </div>
+          <div class="content">
+            <div class="slider">
+              <button class="right-slide slide-button">
+                <i class="fa-solid fa-right-long"></i>
+              </button>
+              <div class="slide-trend">
+                <p class="slide-content">
+                  Phim ảnh, sách báo và game đã làm thay đổi nhận thức của chúng ta về cái thiện và ác như thế nào? Tham gia thảo luận ngay.
+                </p>
+                <a href="#" class="slide-link"
+                  ><img
+                    src="/assets/media/goodorbad.jfif"
+                    alt="trend"
+                    class="slide-img"
+                /></a>
+              </div>
+              <button class="left-slide slide-button">
+                <i class="fa-solid fa-left-long"></i>
+              </button>
+            </div>
+            <div class="main">
+              <div class="posts">
+                <div class="row sm-gutter">
+                  <div class="col l-6">
+                    <div class="post">
+                      <a href="#" class="post-link">
+                        <img
+                          src="https://vione.ai/wp-content/uploads/2022/03/tri-tue-nhan-tao.jpg"
+                          alt="Hình bài viết"
+                          class="post-img"
+                        />
+                      </a>
+                      <p class="post-content">
+                        Công nghệ và tương lai
+                      </p>
+                      <div class="post-footer">
+                        <div class="post-like">
+                          <i class="fa-regular fa-heart post-like--icon"></i>
+                          <!-- <i class="fa-solid fa-heart post-like--icon"></i> -->
+                          <p class="post-like--span">Thích</p>
+                        </div>
+                        <div class="post-author">GS John Vu, Carnegie Mellon University | Công nghệ</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col l-6">
+                    <div class="post">
+                      <a href="#" class="post-link">
+                        <img
+                          src="https://vione.ai/wp-content/uploads/2022/03/tri-tue-nhan-tao.jpg"
+                          alt="Hình bài viết"
+                          class="post-img"
+                        />
+                      </a>
+                      <p class="post-content">
+                        Công nghệ và tương lai
+                      </p>
+                      <div class="post-footer">
+                        <div class="post-like">
+                          <i class="fa-regular fa-heart post-like--icon"></i>
+                          <!-- <i class="fa-solid fa-heart post-like--icon"></i> -->
+                          <p class="post-like--span">Thích</p>
+                        </div>
+                        <div class="post-author">GS John Vu, Carnegie Mellon University | Công nghệ</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col l-6">
+                    <div class="post">
+                      <a href="#" class="post-link">
+                        <img
+                          src="https://vione.ai/wp-content/uploads/2022/03/tri-tue-nhan-tao.jpg"
+                          alt="Hình bài viết"
+                          class="post-img"
+                        />
+                      </a>
+                      <p class="post-content">
+                        Công nghệ và tương lai
+                      </p>
+                      <div class="post-footer">
+                        <div class="post-like">
+                          <i class="fa-regular fa-heart post-like--icon"></i>
+                          <!-- <i class="fa-solid fa-heart post-like--icon"></i> -->
+                          <p class="post-like--span">Thích</p>
+                        </div>
+                        <div class="post-author">GS John Vu, Carnegie Mellon University | Công nghệ</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col l-6">
+                    <div class="post">
+                      <a href="#" class="post-link">
+                        <img
+                          src="https://vione.ai/wp-content/uploads/2022/03/tri-tue-nhan-tao.jpg"
+                          alt="Hình bài viết"
+                          class="post-img"
+                        />
+                      </a>
+                      <p class="post-content">
+                        Công nghệ và tương lai
+                      </p>
+                      <div class="post-footer">
+                        <div class="post-like">
+                          <i class="fa-regular fa-heart post-like--icon"></i>
+                          <!-- <i class="fa-solid fa-heart post-like--icon"></i> -->
+                          <p class="post-like--span">Thích</p>
+                        </div>
+                        <div class="post-author">GS John Vu, Carnegie Mellon University | Công nghệ</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="new-posts">
+                <p class="heading-post">Live Webinar</p>
+                <div class="new-post">
+                  <a href="#" class="new-post-link">
+                    <img
+                      src="https://vione.ai/wp-content/uploads/2022/03/tri-tue-nhan-tao.jpg"
+                      alt="Hình bài viết"
+                      class="new-post-img"
+                    />
+                  </a>
+                  <p class="new-post-content">
+                    Công nghệ và tương lai
+                  </p>
+                </div>
+                <div class="new-post">
+                  <a href="#" class="new-post-link">
+                    <img
+                      src="https://vione.ai/wp-content/uploads/2022/03/tri-tue-nhan-tao.jpg"
+                      alt="Hình bài viết"
+                      class="new-post-img"
+                    />
+                  </a>
+                  <p class="new-post-content">
+                    Công nghệ và tương lai
+                  </p>
+                </div>
+                <div class="new-post">
+                  <a href="#" class="new-post-link">
+                    <img
+                      src="https://vione.ai/wp-content/uploads/2022/03/tri-tue-nhan-tao.jpg"
+                      alt="Hình bài viết"
+                      class="new-post-img"
+                    />
+                  </a>
+                  <p class="new-post-content">
+                    Công nghệ và tương lai
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
 </html>
